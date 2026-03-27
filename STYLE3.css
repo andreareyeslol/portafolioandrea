@@ -1,0 +1,198 @@
+*{
+	box-sizing: border-box;
+}
+
+header { background-color: #212224;
+font-family: Starshines;
+color: #3E3062;
+letter-spacing: 4px;
+
+}
+
+.encabezado{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	margin-bottom: 20px;
+	padding: 30px 50px;
+}
+
+.nombre{
+	background-color: #ded6f3;
+	border-radius: 50px;
+	padding: 40px 40px;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nombre h3{
+	font-size: 40px;
+	margin: 0;
+	text-align: center;
+}
+
+.nombre1{
+	flex: 2.5;
+	background-color: #3E3062;
+	border-radius: 50px;
+	padding: 10px 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nombre1 h1{
+	color: #ded6f3;
+	font-size: 70px;
+	margin: 0;
+	text-align: center;
+}
+
+body{
+	background-color: #292A2E;
+	font-family: Starshines;
+	justify-content: center;
+	letter-spacing: 2px;
+	align-items: center;
+    align-self: flex-start;
+    align-content: center;
+}
+
+.acordeones{
+	width: 90%;
+	margin: 0 auto;
+	border: none;
+	border-radius: 50px;
+}
+
+.acordeonizq{
+	width: 90%;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+
+.acordeonder{
+	width: 90%;
+	margin-bottom: 20px;
+	margin-right: auto;
+}
+
+.accordion-item{
+	background-color: transparent !important;
+	border: none !important;
+	align-content: center !important;	
+}
+
+.accordion-button{
+	background-color: #3E3062 !important;
+	color: white !important;
+	border-radius: 15px !important;
+	padding: 20px !important;
+	font-size: 25px !important;
+	align-content: space-between !important;
+}
+
+.accordion-body{
+	background-color: #b6a0e4;
+	color: white !important;
+	border-radius: 15px !important;
+	padding: 30px !important;
+	
+
+}
+
+.caja{
+	background-color: #b6a0e4;
+	border-radius: 50px;
+	padding: 20px;
+  color: #3E3062;	
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.caja h2{
+	font-size: 2rem;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.caja p{
+	margin: 0;
+	font-size: 1.1rem;
+}
+
+
+
+img{
+	width: 80%;
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+h4{
+	font-size: 30px;
+}
+
+strong{
+	font-size: 20px;
+}
+
+footer{
+	color: white;
+	background-color:  #212224;
+}
+.button {display: block;
+text-decoration: none;
+background-color: #764ba2;
+color: white;
+border-radius: 15px;
+padding: 15px;
+margin: 10px 0;
+transition: 0.3s;
+box-shadow: 2px 2px 5px grey;}
+.button I{margin-right: 8px;}
+.button:hover{background-color: #5e4d62;}
+
+
+
+@media (max-width: 768px) {
+  .encabezado {
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .nombre, .nombre1 {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .nombre h3 { 
+  	font-size: 25px; 
+  }
+
+  .nombre1 h1 { 
+  	font-size: 35px; 
+  }
+
+  .acordeonizq, .acordeonder {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+}
+
+
+
+
+
+
